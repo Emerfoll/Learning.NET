@@ -1,0 +1,15 @@
+/Users/fox/ASP.NET/First_.NET_Project/Learning.NET/bin/Debug/net5.0/Learning.NET.deps.json
+/Users/fox/ASP.NET/First_.NET_Project/Learning.NET/bin/Debug/net5.0/Learning.NET.runtimeconfig.json
+/Users/fox/ASP.NET/First_.NET_Project/Learning.NET/bin/Debug/net5.0/Learning.NET.runtimeconfig.dev.json
+/Users/fox/ASP.NET/First_.NET_Project/Learning.NET/bin/Debug/net5.0/Learning.NET.dll
+/Users/fox/ASP.NET/First_.NET_Project/Learning.NET/bin/Debug/net5.0/ref/Learning.NET.dll
+/Users/fox/ASP.NET/First_.NET_Project/Learning.NET/bin/Debug/net5.0/Learning.NET.pdb
+/Users/fox/ASP.NET/First_.NET_Project/Learning.NET/obj/Debug/net5.0/Learning.NET.csproj.AssemblyReference.cache
+/Users/fox/ASP.NET/First_.NET_Project/Learning.NET/obj/Debug/net5.0/Learning.NET.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fox/ASP.NET/First_.NET_Project/Learning.NET/obj/Debug/net5.0/Learning.NET.AssemblyInfoInputs.cache
+/Users/fox/ASP.NET/First_.NET_Project/Learning.NET/obj/Debug/net5.0/Learning.NET.AssemblyInfo.cs
+/Users/fox/ASP.NET/First_.NET_Project/Learning.NET/obj/Debug/net5.0/Learning.NET.csproj.CoreCompileInputs.cache
+/Users/fox/ASP.NET/First_.NET_Project/Learning.NET/obj/Debug/net5.0/Learning.NET.dll
+/Users/fox/ASP.NET/First_.NET_Project/Learning.NET/obj/Debug/net5.0/ref/Learning.NET.dll
+/Users/fox/ASP.NET/First_.NET_Project/Learning.NET/obj/Debug/net5.0/Learning.NET.pdb
+/Users/fox/ASP.NET/First_.NET_Project/Learning.NET/obj/Debug/net5.0/Learning.NET.genruntimeconfig.cache
