@@ -38,19 +38,19 @@ namespace Learning.NET
             // Console.WriteLine("beep boop calculating...");
             // Console.WriteLine("Here is the number you wanted cubed: " + cubedNumber);
             
-            bool raining = false;
+            bool raining = true;
+            bool hungry = true;
 
-            if (raining) {
-                Console.WriteLine("Bring an umbrella.");
+            if (raining && hungry) {
+                Console.WriteLine("Bring an umbrella and grab some food along the way.");
+            } else if(raining && !hungry) {
+                Console.WriteLine("Bring an umbrella");
+            } else if(!raining && hungry) {
+                Console.WriteLine("Don't forget your sunglasses and to grab some food on the way.");
             } else {
                 Console.WriteLine("Don't forget your sunglasses!");
             }
 
-            bool hungry = true;
-
-            if (hungry) {
-                Console.WriteLine("Grab some food on the way.");
-            }
 
 
         }
