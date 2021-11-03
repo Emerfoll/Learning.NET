@@ -30,21 +30,36 @@ namespace Learning.NET
             
             // Console.WriteLine(luckyNumbers[3]);
             
-            Console.WriteLine("What number would you like to cube?");
-            int numberToCube = Convert.ToInt32(Console.ReadLine());
+            // Console.WriteLine("What number would you like to cube?");
+            // int numberToCube = Convert.ToInt32(Console.ReadLine());
 
-            int cubedNumber = cubeThisNumber(numberToCube);
+            // int cubedNumber = cubeThisNumber(numberToCube);
 
-            Console.WriteLine("beep boop calculating...");
-            Console.WriteLine("Here is the number you wanted cubed: " + cubedNumber);
+            // Console.WriteLine("beep boop calculating...");
+            // Console.WriteLine("Here is the number you wanted cubed: " + cubedNumber);
             
+            bool raining = false;
+
+            if (raining) {
+                Console.WriteLine("Bring an umbrella.");
+            } else {
+                Console.WriteLine("Don't forget your sunglasses!");
+            }
+
+            bool hungry = true;
+
+            if (hungry) {
+                Console.WriteLine("Grab some food on the way.");
+            }
+
+
         }
 
-        static int cubeThisNumber(int numberToCube)
-        {
-            int num3 = numberToCube * numberToCube * numberToCube;
-            return num3;
-        }
+        // static int cubeThisNumber(int numberToCube)
+        // {
+        //     int num3 = numberToCube * numberToCube * numberToCube;
+        //     return num3;
+        // }
 
 
     }
