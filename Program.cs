@@ -31,17 +31,19 @@ namespace Learning.NET
             // Console.WriteLine(luckyNumbers[3]);
             
             Console.WriteLine("What number would you like to cube?");
-            double numberToCube = Convert.ToDouble(Console.ReadLine());
+            int numberToCube = Convert.ToInt32(Console.ReadLine());
 
-            cubeThisNumber(numberToCube);
+            int cubedNumber = cubeThisNumber(numberToCube);
 
+            Console.WriteLine("beep boop calculating...");
+            Console.WriteLine("Here is the number you wanted cubed: " + cubedNumber);
+            
         }
 
-        static void cubeThisNumber(double numberToCube)
+        static int cubeThisNumber(int numberToCube)
         {
-            double cubedNumber = numberToCube * numberToCube * numberToCube;
-            Console.WriteLine("Hello, here is the number you requested: " + cubedNumber);
-
+            int num3 = numberToCube * numberToCube * numberToCube;
+            return num3;
         }
 
 
