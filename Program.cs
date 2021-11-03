@@ -30,16 +30,17 @@ namespace Learning.NET
             
             // Console.WriteLine(luckyNumbers[3]);
             
-            Console.WriteLine("What is your name?");
-            string name = Console.ReadLine();
+            Console.WriteLine("What number would you like to cube?");
+            double numberToCube = Convert.ToDouble(Console.ReadLine());
 
-            sayHello(name);
+            cubeThisNumber(numberToCube);
 
         }
 
-        static void sayHello(string name)
+        static void cubeThisNumber(double numberToCube)
         {
-            Console.WriteLine("Hello " + name + "!");
+            double cubedNumber = numberToCube * numberToCube * numberToCube;
+            Console.WriteLine("Hello, here is the number you requested: " + cubedNumber);
 
         }
 
